@@ -20,6 +20,8 @@
 		91B10A39230F22A6006F7EFD /* InterquartileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B10A38230F22A6006F7EFD /* InterquartileTests.swift */; };
 		91B10A3B230F2360006F7EFD /* MeanMedianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B10A3A230F2360006F7EFD /* MeanMedianTests.swift */; };
 		91CFC18C22EF908C00EC6B34 /* Quarantile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CFC18B22EF908C00EC6B34 /* Quarantile.swift */; };
+		91DF87B9231046DC0051A6BF /* Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF87B8231046DC0051A6BF /* Comparator.swift */; };
+		91DF87BB231066C80051A6BF /* ComparatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF87BA231066C80051A6BF /* ComparatorTests.swift */; };
 		91E57BC3230CA0AE0089BCD5 /* MarkAndToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E57BC2230CA0AE0089BCD5 /* MarkAndToys.swift */; };
 		91E57BC5230CA2D30089BCD5 /* MarkAndToysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E57BC4230CA2D30089BCD5 /* MarkAndToysTest.swift */; };
 		91E57BC7230D87DF0089BCD5 /* FraudulentActivityNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E57BC6230D87DF0089BCD5 /* FraudulentActivityNotification.swift */; };
@@ -82,6 +84,8 @@
 		91B10A38230F22A6006F7EFD /* InterquartileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterquartileTests.swift; sourceTree = "<group>"; };
 		91B10A3A230F2360006F7EFD /* MeanMedianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeanMedianTests.swift; sourceTree = "<group>"; };
 		91CFC18B22EF908C00EC6B34 /* Quarantile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quarantile.swift; sourceTree = "<group>"; };
+		91DF87B8231046DC0051A6BF /* Comparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparator.swift; sourceTree = "<group>"; };
+		91DF87BA231066C80051A6BF /* ComparatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparatorTests.swift; sourceTree = "<group>"; };
 		91E57BC2230CA0AE0089BCD5 /* MarkAndToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAndToys.swift; sourceTree = "<group>"; };
 		91E57BC4230CA2D30089BCD5 /* MarkAndToysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAndToysTest.swift; sourceTree = "<group>"; };
 		91E57BC6230D87DF0089BCD5 /* FraudulentActivityNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudulentActivityNotification.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				91B10A36230F21A1006F7EFD /* QuarantileTests.swift */,
 				91B10A38230F22A6006F7EFD /* InterquartileTests.swift */,
 				91B10A3A230F2360006F7EFD /* MeanMedianTests.swift */,
+				91DF87BA231066C80051A6BF /* ComparatorTests.swift */,
 			);
 			path = HackerRankPracticeTests;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				912A4977230DFA5A00E5FD6E /* BubbleSort.swift */,
 				91E57BC2230CA0AE0089BCD5 /* MarkAndToys.swift */,
 				91E57BC6230D87DF0089BCD5 /* FraudulentActivityNotification.swift */,
+				91DF87B8231046DC0051A6BF /* Comparator.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 				91E57BC7230D87DF0089BCD5 /* FraudulentActivityNotification.swift in Sources */,
 				91E57BC3230CA0AE0089BCD5 /* MarkAndToys.swift in Sources */,
 				917034C222E8B60600487B35 /* AppDelegate.swift in Sources */,
+				91DF87B9231046DC0051A6BF /* Comparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +404,7 @@
 				91B10A3B230F2360006F7EFD /* MeanMedianTests.swift in Sources */,
 				91E57BC9230D9C150089BCD5 /* FraudulentActivityNotificationTest.swift in Sources */,
 				917034D722E8B60C00487B35 /* HackerRankPracticeTests.swift in Sources */,
+				91DF87BB231066C80051A6BF /* ComparatorTests.swift in Sources */,
 				91F2AF1522F1E46300D4A750 /* AlagramTest.swift in Sources */,
 				91B10A39230F22A6006F7EFD /* InterquartileTests.swift in Sources */,
 				91B10A37230F21A1006F7EFD /* QuarantileTests.swift in Sources */,
