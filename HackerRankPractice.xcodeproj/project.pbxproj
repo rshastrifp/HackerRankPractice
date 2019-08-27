@@ -17,6 +17,8 @@
 		917034CC22E8B60C00487B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917034CA22E8B60C00487B35 /* LaunchScreen.storyboard */; };
 		917034D722E8B60C00487B35 /* HackerRankPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917034D622E8B60C00487B35 /* HackerRankPracticeTests.swift */; };
 		917034E222E8B60C00487B35 /* HackerRankPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917034E122E8B60C00487B35 /* HackerRankPracticeUITests.swift */; };
+		91A1513523157C2D00B3AD83 /* AlternatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1513423157C2D00B3AD83 /* AlternatingCharacters.swift */; };
+		91A151372315819100B3AD83 /* AlternatingCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A151362315819100B3AD83 /* AlternatingCharactersTests.swift */; };
 		91B10A35230F1CDD006F7EFD /* BubbleSortTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B10A34230F1CDD006F7EFD /* BubbleSortTest.swift */; };
 		91B10A37230F21A1006F7EFD /* QuarantileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B10A36230F21A1006F7EFD /* QuarantileTests.swift */; };
 		91B10A39230F22A6006F7EFD /* InterquartileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B10A38230F22A6006F7EFD /* InterquartileTests.swift */; };
@@ -83,6 +85,8 @@
 		917034DD22E8B60C00487B35 /* HackerRankPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerRankPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		917034E122E8B60C00487B35 /* HackerRankPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerRankPracticeUITests.swift; sourceTree = "<group>"; };
 		917034E322E8B60C00487B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A1513423157C2D00B3AD83 /* AlternatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternatingCharacters.swift; sourceTree = "<group>"; };
+		91A151362315819100B3AD83 /* AlternatingCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternatingCharactersTests.swift; sourceTree = "<group>"; };
 		91B10A34230F1CDD006F7EFD /* BubbleSortTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTest.swift; sourceTree = "<group>"; };
 		91B10A36230F21A1006F7EFD /* QuarantileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarantileTests.swift; sourceTree = "<group>"; };
 		91B10A38230F22A6006F7EFD /* InterquartileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterquartileTests.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 		916EA69F231451B6000F604A /* String */ = {
 			isa = PBXGroup;
 			children = (
+				91A1513423157C2D00B3AD83 /* AlternatingCharacters.swift */,
 				916EA6A0231451E7000F604A /* MakingAnagrams.swift */,
 			);
 			path = String;
@@ -185,6 +190,7 @@
 				91B10A3A230F2360006F7EFD /* MeanMedianTests.swift */,
 				91DF87BA231066C80051A6BF /* ComparatorTests.swift */,
 				916EA6A223145D3F000F604A /* MakingAnagramsTests.swift */,
+				91A151362315819100B3AD83 /* AlternatingCharactersTests.swift */,
 			);
 			path = HackerRankPracticeTests;
 			sourceTree = "<group>";
@@ -403,6 +409,7 @@
 				91F2AF1822F1F20D00D4A750 /* StringExtension.swift in Sources */,
 				91F2AF1322F1D05700D4A750 /* SherlockAndAnagrams.swift in Sources */,
 				917034C422E8B60600487B35 /* ViewController.swift in Sources */,
+				91A1513523157C2D00B3AD83 /* AlternatingCharacters.swift in Sources */,
 				91E57BC7230D87DF0089BCD5 /* FraudulentActivityNotification.swift in Sources */,
 				91E57BC3230CA0AE0089BCD5 /* MarkAndToys.swift in Sources */,
 				917034C222E8B60600487B35 /* AppDelegate.swift in Sources */,
@@ -416,6 +423,7 @@
 			files = (
 				91B10A35230F1CDD006F7EFD /* BubbleSortTest.swift in Sources */,
 				91E57BC5230CA2D30089BCD5 /* MarkAndToysTest.swift in Sources */,
+				91A151372315819100B3AD83 /* AlternatingCharactersTests.swift in Sources */,
 				916EA6A323145D3F000F604A /* MakingAnagramsTests.swift in Sources */,
 				91B10A3B230F2360006F7EFD /* MeanMedianTests.swift in Sources */,
 				91E57BC9230D9C150089BCD5 /* FraudulentActivityNotificationTest.swift in Sources */,
