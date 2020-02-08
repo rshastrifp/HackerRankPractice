@@ -51,6 +51,10 @@
 		91F2AF1322F1D05700D4A750 /* SherlockAndAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2AF1222F1D05700D4A750 /* SherlockAndAnagrams.swift */; };
 		91F2AF1522F1E46300D4A750 /* AlagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2AF1422F1E46300D4A750 /* AlagramTest.swift */; };
 		91F2AF1822F1F20D00D4A750 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2AF1722F1F20D00D4A750 /* StringExtension.swift */; };
+		D4731EA023EF2ADF00A1BE99 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731E9F23EF2ADF00A1BE99 /* Staircase.swift */; };
+		D4731EA223EF2B3200A1BE99 /* StaircaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */; };
+		D4731EA423EF37B900A1BE99 /* BirthdaycakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA323EF37B900A1BE99 /* BirthdaycakeCandles.swift */; };
+		D4731EA623EF38D100A1BE99 /* BirthdayCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +138,10 @@
 		91F2AF1222F1D05700D4A750 /* SherlockAndAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndAnagrams.swift; sourceTree = "<group>"; };
 		91F2AF1422F1E46300D4A750 /* AlagramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlagramTest.swift; sourceTree = "<group>"; };
 		91F2AF1722F1F20D00D4A750 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D4731E9F23EF2ADF00A1BE99 /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
+		D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTests.swift; sourceTree = "<group>"; };
+		D4731EA323EF37B900A1BE99 /* BirthdaycakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaycakeCandles.swift; sourceTree = "<group>"; };
+		D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +238,8 @@
 				91A1513A23159F3D00B3AD83 /* SherlockAndTheValidStringTests.swift */,
 				91844DD0231983D800DD622D /* TheLoveLetterMysteryTests.swift */,
 				91ECFE24233273840047071B /* MimiMaxSumTests.swift */,
+				D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */,
+				D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */,
 			);
 			path = HackerRankPracticeTests;
 			sourceTree = "<group>";
@@ -350,6 +360,8 @@
 			isa = PBXGroup;
 			children = (
 				91ECFE22233271DD0047071B /* MiniMaxSum .swift */,
+				D4731E9F23EF2ADF00A1BE99 /* Staircase.swift */,
+				D4731EA323EF37B900A1BE99 /* BirthdaycakeCandles.swift */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -543,6 +555,7 @@
 				916EA6A1231451E7000F604A /* MakingAnagrams.swift in Sources */,
 				91F2AEC922F0E03A00D4A750 /* SubStringCheck.swift in Sources */,
 				91CFC18C22EF908C00EC6B34 /* Quarantile.swift in Sources */,
+				D4731EA423EF37B900A1BE99 /* BirthdaycakeCandles.swift in Sources */,
 				91F2AF1822F1F20D00D4A750 /* StringExtension.swift in Sources */,
 				91844DD32319CEC200DD622D /* CharacterExtension.swift in Sources */,
 				916043AE232965DA00EE6528 /* HighestValuePalindrome.swift in Sources */,
@@ -556,6 +569,7 @@
 				91E57BC3230CA0AE0089BCD5 /* MarkAndToys.swift in Sources */,
 				917034C222E8B60600487B35 /* AppDelegate.swift in Sources */,
 				91DF87B9231046DC0051A6BF /* Comparator.swift in Sources */,
+				D4731EA023EF2ADF00A1BE99 /* Staircase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,12 +580,14 @@
 				91A1513B23159F3D00B3AD83 /* SherlockAndTheValidStringTests.swift in Sources */,
 				91B10A35230F1CDD006F7EFD /* BubbleSortTest.swift in Sources */,
 				91B6C54223343472003FB61E /* InsertNodeAtPositionTests.swift in Sources */,
+				D4731EA623EF38D100A1BE99 /* BirthdayCakeTests.swift in Sources */,
 				91E57BC5230CA2D30089BCD5 /* MarkAndToysTest.swift in Sources */,
 				91A151372315819100B3AD83 /* AlternatingCharactersTests.swift in Sources */,
 				916EA6A323145D3F000F604A /* MakingAnagramsTests.swift in Sources */,
 				91EEF78C2336F7C300E6C33F /* RoadsAndLibrariesTests.swift in Sources */,
 				91B10A3B230F2360006F7EFD /* MeanMedianTests.swift in Sources */,
 				91E57BC9230D9C150089BCD5 /* FraudulentActivityNotificationTest.swift in Sources */,
+				D4731EA223EF2B3200A1BE99 /* StaircaseTests.swift in Sources */,
 				91844DD1231983D800DD622D /* TheLoveLetterMysteryTests.swift in Sources */,
 				917034D722E8B60C00487B35 /* HackerRankPracticeTests.swift in Sources */,
 				91B6C54823347FD7003FB61E /* BalancedBracketsTests.swift in Sources */,
