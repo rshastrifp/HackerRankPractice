@@ -55,6 +55,8 @@
 		D4731EA223EF2B3200A1BE99 /* StaircaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */; };
 		D4731EA423EF37B900A1BE99 /* BirthdaycakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA323EF37B900A1BE99 /* BirthdaycakeCandles.swift */; };
 		D4731EA623EF38D100A1BE99 /* BirthdayCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */; };
+		D4731EA823EF3A4800A1BE99 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA723EF3A4800A1BE99 /* TimeConversion.swift */; };
+		D4731EAA23EF3D6F00A1BE99 /* TimeConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA923EF3D6F00A1BE99 /* TimeConversionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +144,8 @@
 		D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTests.swift; sourceTree = "<group>"; };
 		D4731EA323EF37B900A1BE99 /* BirthdaycakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaycakeCandles.swift; sourceTree = "<group>"; };
 		D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeTests.swift; sourceTree = "<group>"; };
+		D4731EA723EF3A4800A1BE99 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
+		D4731EA923EF3D6F00A1BE99 /* TimeConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +244,7 @@
 				91ECFE24233273840047071B /* MimiMaxSumTests.swift */,
 				D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */,
 				D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */,
+				D4731EA923EF3D6F00A1BE99 /* TimeConversionTests.swift */,
 			);
 			path = HackerRankPracticeTests;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				91ECFE22233271DD0047071B /* MiniMaxSum .swift */,
 				D4731E9F23EF2ADF00A1BE99 /* Staircase.swift */,
 				D4731EA323EF37B900A1BE99 /* BirthdaycakeCandles.swift */,
+				D4731EA723EF3A4800A1BE99 /* TimeConversion.swift */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -557,6 +563,7 @@
 				91CFC18C22EF908C00EC6B34 /* Quarantile.swift in Sources */,
 				D4731EA423EF37B900A1BE99 /* BirthdaycakeCandles.swift in Sources */,
 				91F2AF1822F1F20D00D4A750 /* StringExtension.swift in Sources */,
+				D4731EA823EF3A4800A1BE99 /* TimeConversion.swift in Sources */,
 				91844DD32319CEC200DD622D /* CharacterExtension.swift in Sources */,
 				916043AE232965DA00EE6528 /* HighestValuePalindrome.swift in Sources */,
 				91F2AF1322F1D05700D4A750 /* SherlockAndAnagrams.swift in Sources */,
@@ -593,6 +600,7 @@
 				91B6C54823347FD7003FB61E /* BalancedBracketsTests.swift in Sources */,
 				91DF87BB231066C80051A6BF /* ComparatorTests.swift in Sources */,
 				91ECFE25233273840047071B /* MimiMaxSumTests.swift in Sources */,
+				D4731EAA23EF3D6F00A1BE99 /* TimeConversionTests.swift in Sources */,
 				91F2AF1522F1E46300D4A750 /* AlagramTest.swift in Sources */,
 				91B10A39230F22A6006F7EFD /* InterquartileTests.swift in Sources */,
 				91B10A37230F21A1006F7EFD /* QuarantileTests.swift in Sources */,
