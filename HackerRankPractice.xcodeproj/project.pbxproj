@@ -57,6 +57,8 @@
 		D4731EA623EF38D100A1BE99 /* BirthdayCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */; };
 		D4731EA823EF3A4800A1BE99 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA723EF3A4800A1BE99 /* TimeConversion.swift */; };
 		D4731EAA23EF3D6F00A1BE99 /* TimeConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731EA923EF3D6F00A1BE99 /* TimeConversionTests.swift */; };
+		D4D18CE5240CA5F700A73C52 /* dayFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CE4240CA5F700A73C52 /* dayFinder.swift */; };
+		D4D18CE7240CA8B100A73C52 /* DayFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CE6240CA8B100A73C52 /* DayFinderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +148,8 @@
 		D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeTests.swift; sourceTree = "<group>"; };
 		D4731EA723EF3A4800A1BE99 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		D4731EA923EF3D6F00A1BE99 /* TimeConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversionTests.swift; sourceTree = "<group>"; };
+		D4D18CE4240CA5F700A73C52 /* dayFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayFinder.swift; sourceTree = "<group>"; };
+		D4D18CE6240CA8B100A73C52 /* DayFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFinderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,7 @@
 		917034C022E8B60600487B35 /* HackerRankPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D4D18CE3240CA59E00A73C52 /* Random */,
 				91A1513C2316DF3E00B3AD83 /* TestingRecources */,
 				91F2AF1622F1F1F500D4A750 /* Extensions */,
 				91844DCB2319810200DD622D /* Practice */,
@@ -245,6 +250,7 @@
 				D4731EA123EF2B3200A1BE99 /* StaircaseTests.swift */,
 				D4731EA523EF38D100A1BE99 /* BirthdayCakeTests.swift */,
 				D4731EA923EF3D6F00A1BE99 /* TimeConversionTests.swift */,
+				D4D18CE6240CA8B100A73C52 /* DayFinderTests.swift */,
 			);
 			path = HackerRankPracticeTests;
 			sourceTree = "<group>";
@@ -419,6 +425,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D4D18CE3240CA59E00A73C52 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18CE4240CA5F700A73C52 /* dayFinder.swift */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -576,6 +590,7 @@
 				91E57BC3230CA0AE0089BCD5 /* MarkAndToys.swift in Sources */,
 				917034C222E8B60600487B35 /* AppDelegate.swift in Sources */,
 				91DF87B9231046DC0051A6BF /* Comparator.swift in Sources */,
+				D4D18CE5240CA5F700A73C52 /* dayFinder.swift in Sources */,
 				D4731EA023EF2ADF00A1BE99 /* Staircase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91A1513B23159F3D00B3AD83 /* SherlockAndTheValidStringTests.swift in Sources */,
+				D4D18CE7240CA8B100A73C52 /* DayFinderTests.swift in Sources */,
 				91B10A35230F1CDD006F7EFD /* BubbleSortTest.swift in Sources */,
 				91B6C54223343472003FB61E /* InsertNodeAtPositionTests.swift in Sources */,
 				D4731EA623EF38D100A1BE99 /* BirthdayCakeTests.swift in Sources */,
