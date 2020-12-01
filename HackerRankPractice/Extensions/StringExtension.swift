@@ -26,6 +26,18 @@ extension String {
         let end = index(startIndex, offsetBy: bounds.upperBound)
         return String(self[start..<end])
     }
+    
+    func findLinks() -> [String] {
+        let detector = try! NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
+        let matches = detector.matches(in: self, options: [], range: NSRange(location: 0, length: self.utf16.count))
+        var links = [String]()
+        for match in matches {
+            guard let range = Range(match.range, in: self) else { continue }
+            let url = self[range]
+            links.append(String(url))
+        }
+        return links
+    }
 }
 
 /*
