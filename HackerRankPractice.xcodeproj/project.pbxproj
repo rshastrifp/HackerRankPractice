@@ -60,6 +60,8 @@
 		D4D18CE5240CA5F700A73C52 /* dayFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CE4240CA5F700A73C52 /* dayFinder.swift */; };
 		D4D18CE7240CA8B100A73C52 /* DayFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CE6240CA8B100A73C52 /* DayFinderTests.swift */; };
 		DF5CBD03242E99F400B755C8 /* TestStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CBD02242E99F400B755C8 /* TestStringExtension.swift */; };
+		DF7778DA2586E9A300DF2694 /* Dictionary+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7778D92586E9A300DF2694 /* Dictionary+Extenstion.swift */; };
+		DF7778DB2586E9A300DF2694 /* Dictionary+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7778D92586E9A300DF2694 /* Dictionary+Extenstion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,7 @@
 		D4D18CE4240CA5F700A73C52 /* dayFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayFinder.swift; sourceTree = "<group>"; };
 		D4D18CE6240CA8B100A73C52 /* DayFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFinderTests.swift; sourceTree = "<group>"; };
 		DF5CBD02242E99F400B755C8 /* TestStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStringExtension.swift; sourceTree = "<group>"; };
+		DF7778D92586E9A300DF2694 /* Dictionary+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extenstion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +427,7 @@
 			children = (
 				91F2AF1722F1F20D00D4A750 /* StringExtension.swift */,
 				91844DD22319CEC200DD622D /* CharacterExtension.swift */,
+				DF7778D92586E9A300DF2694 /* Dictionary+Extenstion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -597,6 +601,7 @@
 				917034C422E8B60600487B35 /* ViewController.swift in Sources */,
 				91B6C5452334783A003FB61E /* BalancedBrackets.swift in Sources */,
 				91A1513523157C2D00B3AD83 /* AlternatingCharacters.swift in Sources */,
+				DF7778DA2586E9A300DF2694 /* Dictionary+Extenstion.swift in Sources */,
 				91E57BC7230D87DF0089BCD5 /* FraudulentActivityNotification.swift in Sources */,
 				91E57BC3230CA0AE0089BCD5 /* MarkAndToys.swift in Sources */,
 				917034C222E8B60600487B35 /* AppDelegate.swift in Sources */,
@@ -632,6 +637,7 @@
 				91F2AF1522F1E46300D4A750 /* AlagramTest.swift in Sources */,
 				91B10A39230F22A6006F7EFD /* InterquartileTests.swift in Sources */,
 				91B10A37230F21A1006F7EFD /* QuarantileTests.swift in Sources */,
+				DF7778DB2586E9A300DF2694 /* Dictionary+Extenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
